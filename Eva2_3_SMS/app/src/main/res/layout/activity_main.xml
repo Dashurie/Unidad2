@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/VwTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono:" />
+
+    <EditText
+        android:id="@+id/TxtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TELEFONO"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/VwMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje:" />
+
+    <EditText
+        android:id="@+id/TxtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:ems="10"
+        android:hint="MENSAJE"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/BtnEnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviar"
+        android:text="Mensajear" />
+
+</LinearLayout>

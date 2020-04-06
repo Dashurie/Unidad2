@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Hoteles"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btnhot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="VerHoteles"
+        android:text="Hoteles" />
+
+    <Button
+        android:id="@+id/Btncon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Contacto"
+        android:text="Ver contacto" />
+
+    <Button
+        android:id="@+id/Btnaudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Audi"
+        android:text="Ver audio" />
+
+    <Button
+        android:id="@+id/BtnImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="img"
+        android:text="Ver imagenes" />
+
+    <Button
+        android:id="@+id/BtnVid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Videos"
+        android:text="Ver videos" />
+
+</LinearLayout>
